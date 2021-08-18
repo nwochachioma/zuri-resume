@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color:#fff;
+    text-decoration: none;
+}
+body{
+    margin: 50px;
+    color:white;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.zuri-logo{
+    margin-bottom: 50px;
+}
+.header{
+    border-bottom: 2px solid white;
+    padding-bottom:2%;
+    width:90%;
+    margin: 0 auto;
+}
+.header-div{
+    margin:0 auto;
+    width:50%;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.header-div > p {
+    font-size:12px;
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: 25% 50% 30%;
+   /* gap:5%;*/
+    text-transform: none;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    margin: 10px 0 10px 0;
+}
+.main{
+    padding-top:4%;
+    line-height: 30px;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding:0 5%;
+}
+.main-left{
+    border-right: 2px solid white;
+    padding:0 15% 0 5%;
+    text-align: right;
+}
+.main-right{
+    padding:0 5% 0 15%;
+}
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-left > div, .main-right > div{
+    margin-bottom: 30px;
+}
+
+.hobbies-iconify, .contact-iconify{
+    font-size:50px;
+    flex-wrap: wrap;
+    margin-right:5px;
+    color:white;
+}
+@media screen and (max-width:1024px) {
+    .header-div{
+        width:90%;
+    }
+}
+@media screen and (max-width:425px) {
+    body{
+        margin: 20px;
+    }
+    .header-grid{
+        grid-template-columns: 100%;
+    }
+    .header-div,.header{
+        width:100%;
+    }
+    h1{
+        height:100px;
+    }
+    h2{
+        font-size:20px;
+    }
+    h3{
+        font-size:18px;
+    }
+    .flex{
+        grid-template-columns: 100%;
+    }
+    .main-left{
+        border-right: none;
+        padding:0 15% 0 5%;
+        text-align: left;
+    }
+    .main-right{
+        padding:0 15% 0 5%;
+    }
+    .hobbies-iconify, .contact-iconify{
+        font-size:30px
+    }
+}
+    
