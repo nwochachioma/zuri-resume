@@ -65,6 +65,9 @@ h2{
     letter-spacing: 5px;
     font-family: 'Montserrat', sans-serif;
 }
+h3{
+    padding-top:20px;
+}
 
 .main-left > div, .main-right > div{
     margin-bottom: 30px;
