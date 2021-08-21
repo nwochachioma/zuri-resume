@@ -108,11 +108,11 @@ h3{
     }
     .main-left{
         border-right: none;
-        padding:0 15% 0 5%;
+        padding:0 2%;
         text-align: left;
     }
     .main-right{
-        padding:0 15% 0 5%;
+        padding:0 2%;
     }
     .hobbies-iconify, .contact-iconify{
         font-size:30px
